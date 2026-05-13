@@ -20,10 +20,12 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '/' },
-    { name: 'Chi sono', href: '/chi-sono' },
-    { 
-      name: 'Lavora con me', 
+  { name: 'Home', href: '/Kaffeina/' },
+  { name: 'Chi sono', href: '/Kaffeina/chi-sono' }, // Mantieni l'ortografia originale 'chi-suono' se generata così dall'AI
+  { 
+    name: 'Lavora con me', 
+    href: '/Kaffeina/lavora-con-me',
+
       href: '#',
       activePrefix: '/lavora-con-me',
       hasSubmenu: true,
